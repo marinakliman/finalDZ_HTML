@@ -526,7 +526,7 @@ lower_text_span {
     justify-self: center;
 }
 
-@media(min-width: 768px) and (max-width: 1024px) 
+@media(min-width: 768px) and (max-width: 1024px) {
     .middle {
         width: 100%;
     }
@@ -566,8 +566,8 @@ lower_text_span {
         background-color: transparent;
         outline: none; 
         border: none;
-        
-    }
+    }  
+}
 
 
 @media(min-width: 320px) and (max-width: 767px){ 
