@@ -104,12 +104,12 @@ fashion_span {
 }
 
 .middle {
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50% 40%;
     padding-bottom: 0;
     gap: 12px;
+    width: 100%;
 }
 
 .middle_small_plate {
@@ -526,7 +526,7 @@ lower_text_span {
     justify-self: center;
 }
 
-@media(min-width: 768px) and (max-width: 1024px) {
+@media(min-width: 768px) and (max-width: 1024px) 
     .middle {
         width: 100%;
     }
@@ -570,7 +570,7 @@ lower_text_span {
     }
 
 
-@media(min-width: 320px) and (max-width: 767px) {
+@media(min-width: 320px) and (max-width: 767px){ 
     .body {
         width: 100%;
     }
